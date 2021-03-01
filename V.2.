@@ -1,0 +1,78 @@
+
+
+/*Code by Savannah Smalley
+ * Made 2/28/21
+ * Last Edited 3/1/21
+ * Hawaiian Pronunciation V.2.
+ * 
+ * This is version 2 of my attempt at the Hawaiian Code Challenge. The first code contained a massive while loop full of switch case statements 
+ * and was not able to print "invalid" as a response properly.
+ * 
+ * This version will focus on being less redundant and more on string manipulation.
+ */
+
+import java.util.Scanner;
+
+//imported scanner utility so the code could receive user input
+
+/*Things carried over from version 1: 
+ * 
+ * Using a while loop to let the user decide if they want to enter another word. 
+ * 
+ * Recognizing the userinput as a String named "hawaiian".
+ */
+
+public class HPTake2 {
+	
+	public static void main(String[] args) {
+		
+		while(true) {
+		
+		String hawaiian = null;
+		String pronunciation = null;
+		Scanner inputDevice = new Scanner(System.in);
+		System.out.print("Enter a Hawaiian word to pronounce ==>");
+		hawaiian = inputDevice.nextLine();	
+		
+		//Changing the user input to all caps makes it easier to 
+		//check for certain characters
+		//Later, I will change the caps to all lower case and capitalize the first
+		//character so the "result" text is more appropriate
+		
+		String caps = hawaiian.toUpperCase();
+		String lowercase = caps.toLowerCase();
+		
+		//This is where I check for invalid text. It's a bit brute forceish but hey, it works.
+		//Only way I'd like to improve this is to make it so the printed text included which character
+		//was causing the error.
+		//Ex: "The character ___ is not a valid Hawaiian character"
+		
+		if(caps.contains("B") || caps.contains("C") || caps.contains("D") || caps.contains("F") || caps.contains("G") || caps.contains("J") || caps.contains("Q") || caps.contains("R") || caps.contains("S") || caps.contains("T") || caps.contains("V") || caps.contains("X") || caps.contains("Y") || caps.contains("Z")) {
+			System.out.print("This is not a valid hawaiian word.\n");
+			continue;
+		}
+		
+		//Where certain letters are taken care of (Most work needs to be done here)
+		
+		else {
+	
+		}
+		
+		
+		//This is where I'm trying to print the pronunciation.
+		
+		System.out.print(caps + " is pronounced " + pronunciation + "\n");
+		
+		//Confirmation of repetition
+		String answer;
+		Scanner userInput = new Scanner(System.in);
+		System.out.print("Do you want to enter another word? Y/YES/N/NO ==> ");
+		answer = userInput.nextLine();
+			if(answer.contains("Y") || answer.contains("y"))
+				continue;
+			else if(answer.contains("N") || answer.contains("n"))
+				break;
+			
+		}
+		}
+}
