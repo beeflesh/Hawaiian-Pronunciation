@@ -31,6 +31,7 @@ comparisons easier.
 Vowel and Consonant Sounds:
 --------------------------------------------------------
 Consonants:
+
 p, k, h, l, m, n             Pronounced like the english versions.
 w - start of word            Either pronounced as a w or a v sound. We shall pronounce it as a
                                w sound.
@@ -40,6 +41,7 @@ w - after ‘i’ or ‘e’         Pronounced as a v sound.
 w - after ‘u’ or o           Pronounced as a w sound.
 
 Vowels:
+
 a sounds like ah.      eg. Austin - ah-stin
 e sounds like eh.      eg. egg - eh-gg
 i sounds like ee       eg. bee
