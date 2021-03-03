@@ -7,11 +7,15 @@ Requirements for the challenge are as follows:
 -----------------------------------------------------
 ● The program should validate that the word given by the user only has valid Hawaiian
 characters. Spaces and the apostrophe (‘) are valid as well.
+
 ● If a word is not valid, warn the user about offending characters and prompt for a
 hawaiian word again.
+
 ● Spaces are breaks for words and should be kept intact.
+
 ● The apostrophe is a hard stop, and should be kept in the word. A word with a’i is
 pronounced ah’ee. Without the apostrophe it would be eye.
+
 ● Ask the user if they want to do another word. Valid responses are Y, YES, N or NO. If
 they want to play more, then they can enter another hawaiian word. If no, then the
 program ends.
