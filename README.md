@@ -47,6 +47,7 @@ e sounds like eh.      eg. egg - eh-gg
 i sounds like ee       eg. bee
 o sounds like oh       eg. obey - oh bay
 u sounds like oo       eg. mood - m oo d
+
 --------------------------------------------------------
 
 
