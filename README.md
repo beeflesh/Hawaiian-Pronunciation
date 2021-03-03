@@ -54,13 +54,13 @@ u sounds like oo    ,   eg. mood - m oo d|
 THE CATCH: Vowel Groups:
 --------------------------------------------------------
 Vowel Groups
-ai sounds like eye.             eg. Ice
-ae sounds like eye.             Same as ai
-ao sounds like ow.              eg. How
-au Sounds like ow.              eg. House.
-ei Sounds like ay.              eg. Hay
-eu Sounds like eh-oo
-iu Sounds like ew
-oi Sounds like oy
-ou Sounds like ow.
-ui Sounds like ooey.            Like gooey.
+ai sounds like eye.             eg. Ice |
+ae sounds like eye.             Same as ai |
+ao sounds like ow.              eg. How |
+au Sounds like ow.              eg. House. |
+ei Sounds like ay.              eg. Hay|
+eu Sounds like eh-oo |
+iu Sounds like ew |
+oi Sounds like oy |
+ou Sounds like ow. |
+ui Sounds like ooey.             Like gooey. |
